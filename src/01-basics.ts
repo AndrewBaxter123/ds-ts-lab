@@ -47,6 +47,7 @@ const friend2 : Friend = {
       extension: 125,
     },
   };
+  //This code exports a constant named 'colleagues', making it accessible for use in other modules or files.
   export const colleagues = {
     current: [colleague1, colleague2, colleague3],
     former: [],
