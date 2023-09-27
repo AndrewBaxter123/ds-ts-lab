@@ -55,3 +55,6 @@ export type EventPass = Omit<Colleague, "contact"> & {
 //  Readonly<T> utility type is used to make all properties of T read-only.
 // Pick<T, K> utility type is used to create a type by picking only the specified properties K from the type T.
 export type SecureFriendContact = Readonly<Pick<Friend,"name" | "phone" > >
+
+export type ColWithoutType = Omit<Colleague, "department"> & {
+}

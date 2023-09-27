@@ -29,6 +29,7 @@ const friend2 : Friend = {
       extension: 121,
     },
   };
+
   
   const colleague2: Colleague = {
     name: "Patti Burke",
